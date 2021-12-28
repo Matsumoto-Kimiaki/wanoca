@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+  color: #3C2A10;
+  box-sizing: border-box;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+body.is-open {
+  overflow-y: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+img {
+  vertical-align: bottom;    ///画像下の余白を消す
+}

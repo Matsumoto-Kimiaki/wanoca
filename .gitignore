@@ -1,0 +1,6 @@
+.git
+.vscode/
+.node-version
+node_modules/
+package-lock.json
+.DS_Store
