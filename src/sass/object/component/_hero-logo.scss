@@ -1,0 +1,11 @@
+@use "../../foundation/variable" as *;
+
+.c-hero-logo {
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    width: 70px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 70% 100%;
+}

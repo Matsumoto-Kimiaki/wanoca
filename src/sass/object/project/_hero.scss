@@ -1,4 +1,19 @@
-.p-hero__gallery {
+.p-hero {
     position: relative;
-    height: 730px;
+  &__gallery {
+    height: 812px;
+    &__image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    z-index: 1;
+    font-size: 23px;
+  }
 }

@@ -319,8 +319,7 @@ progress {
 }
 
 body {
-  font-family: "M PLUS 1p", sans-serif;
-  color: #3C2A10;
+  font-family: "Shippori Mincho B1", sans-serif;
   box-sizing: border-box;
   overflow-y: visible;
   overflow-x: hidden;
@@ -349,16 +348,33 @@ img {
   vertical-align: bottom;
 }
 
-.c-hero-image {
+.c-hero-logo {
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+  width: 70px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 70% 100%;
+}
+
+.p-hero {
+  position: relative;
+}
+.p-hero__gallery {
+  height: 812px;
+}
+.p-hero__gallery__image {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  position: absolute;
 }
-
-.p-hero__gallery {
-  position: relative;
-  height: 730px;
+.p-hero__text {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  z-index: 1;
+  font-size: 23px;
 }
 
 /**

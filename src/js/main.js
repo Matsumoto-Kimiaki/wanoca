@@ -1,10 +1,10 @@
 $(function () {
 
     //メインビジュアル
-$('.c-hero-image:nth-child(n+2)').hide();
+$('.p-hero__gallery__image:nth-child(n+2)').hide();
 setInterval(function() {
-  $(".c-hero-image:first-child").fadeOut(3500);
-  $(".c-hero-image:nth-child(2)").fadeIn(3500);
-  $(".c-hero-image:first-child").appendTo(".p-hero__gallery ");
-}, 7000);
-});                                                                          
+  $(".p-hero__gallery__image:first-child").fadeOut(4000);
+  $(".p-hero__gallery__image:nth-child(2)").fadeIn(4000);
+  $(".p-hero__gallery__image:first-child").appendTo(".p-hero__gallery ");
+}, 8000);
+});

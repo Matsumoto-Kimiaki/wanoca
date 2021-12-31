@@ -7,3 +7,6 @@ $breakpoints: (
   //PC用
   "pc": "(min-width: 1025px)",
 );
+
+//  横幅
+$with: calc(100vw / 375);
